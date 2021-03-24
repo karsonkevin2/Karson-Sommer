@@ -1,6 +1,6 @@
 # Overview
 
-This page serves as an overview of selected projects I have contributed to.
+This page serves as an overview of selected projects to which I have contributed.
 
 1. [OpenStreetMap](#openstreetmap--fall-2019---present--contributions)
 2. [Iowa Tracks](#iowa-tracks--winter-20202021--website--github)
