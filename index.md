@@ -8,7 +8,7 @@ This page serves as an overview of selected projects I have contributed to.
 
 text asdfasdf
 
-## OpenStreetMap | Fall 2019 - Present | [Overview](https://hdyc.neis-one.org/?karsonkevin2) [OSMCha](https://osmcha.org/changesets/101660312?filters=%7B%22users%22%3A%5B%7B%22label%22%3A%22karsonkevin2%22%2C%22value%22%3A%22karsonkevin2%22%7D%5D%2C%22order_by%22%3A%5B%7B%22label%22%3A%22Descending%20Date%22%2C%22value%22%3A%22-date%22%7D%5D%7D) [Recent Changes](https://www.openstreetmap.org/user/karsonkevin2/history)
+## OpenStreetMap | Fall 2019 - Present | [Overview](https://hdyc.neis-one.org/?karsonkevin2)
 OpenStreetMap is a map which can be edited and contributed to by anyone. OpenStreetMap is one of the most popular map services since it is free to use and is used by companies such as Amazon, Facebook, Snapchat, Lyft, ...
 
 I am an avid contributor and like to map things which benefit the end user. Some important contributions I have made include:
@@ -19,6 +19,11 @@ I am an avid contributor and like to map things which benefit the end user. Some
 - convert many parks or wildlife management areas from nodes into areas in Iowa
 - add road names and correct road classes to clean up low quality edits from Amazon's mapping team
 - ... various other changes  
+
+## Iowa Tracks | Winter 2020/2021 | [Website](https://karsonkevin2.github.io/Iowa-Tracks/) | [Github](https://github.com/karsonkevin2/Iowa-Tracks)
+This project was spurred by [Russ Biggs Swimming Pools](https://github.com/russbiggs/swimming-pools). I though I could adapt the code to create an effective display of all running tracks in Iowa.
+
+I had previously mapped every running track in Iowa. I utilized [Overpass Turbo](https://overpass-turbo.eu/) to get an extract of the information and [Mapshaper](https://mapshaper.org/) to reformat the information to TopoJSON. The actual code needed to be modified so that each polygon would render its own color. The code also needed to be modified to correctly display multipolygons.
 
 ## NCAA Colors | Summer 2020 | [Github](https://github.com/karsonkevin2/NCAA-Colors)
 This project was undertaken out of curiosity to see how similar NCAA DI team colors are. The B1G Conference team colors caused this project since Nebraska, UW-Madison, IU all have similar team colors.
