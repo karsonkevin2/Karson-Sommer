@@ -26,7 +26,7 @@ I am an avid contributor and like to map things which benefit the end user. Some
 - ... various other changes  
 
 ## Iowa Tracks | Winter 2020/2021 | [Website](https://karsonkevin2.github.io/Iowa-Tracks/) | [Github](https://github.com/karsonkevin2/Iowa-Tracks)
-This website dislpays all running tracks in Iowa. The motivation for this project came from [Russ Biggs Swimming Pools](https://github.com/russbiggs/swimming-pools), which displays swimming pools in Phoenix. I thought I could adapt the code to create an effective display of all running tracks in Iowa.
+This website dislpays all running tracks in Iowa and links to the OpenStreetMap objects when clicked. The motivation for this project came from [Russ Biggs Swimming Pools](https://github.com/russbiggs/swimming-pools), which displays swimming pools in Phoenix. I thought I could adapt the code to create an effective display of all running tracks in Iowa.
 
 I had previously mapped every running track in Iowa. I utilized [Overpass Turbo](https://overpass-turbo.eu/) to get an extract of the information and [Mapshaper](https://mapshaper.org/) to reformat the information to TopoJSON. The actual code needed to be modified so that each polygon would render its own color. The code also needed to be modified to correctly display multipolygons.
 
