@@ -39,12 +39,12 @@ I am a graduate student at the University of Iowa studying business analytics. I
 [OpenStreetMap](openstreetmap.org) is a map which can be edited and contributed to by anyone. OpenStreetMap is one of the most popular map services since it is free to use and is used by companies such as Amazon, Facebook, Snapchat, Lyft, ...
 
 I am an avid contributor and like to map things which benefit the end user. Some important contributions I have made include:
-- standardizing a tagging schema for running tracks and cross country courses
-- mapping every athletic facility in the state of Iowa
-- create named neighborhood polygons in the Quad Cities, Iowa City, Des Moines, ... in conjunction with county GIS departments
-- add missing road suffixes to every road in Wayne County, Iowa
-- convert many parks or wildlife management areas from nodes into areas in Iowa
-- add road names and correct road classes to clean up low quality edits from Amazon's mapping team
+- Standardizing a tagging schema for running tracks and cross country courses
+- Mapping every athletic facility in the state of Iowa
+- Creating named neighborhood polygons in the Quad Cities, Iowa City, Des Moines, ... in conjunction with county GIS departments
+- Adding missing road suffixes to every road in Wayne County, Iowa
+- Converting many parks or wildlife management areas from nodes into areas in Iowa
+- Adding road names and correct road classes to clean up low quality edits from Amazon's mapping team
 - ... various other changes  
 
 ## Iowa Tracks | Winter 2020/2021 | [Website](https://karsonkevin2.github.io/Iowa-Tracks/) | [Github](https://github.com/karsonkevin2/Iowa-Tracks)
