@@ -11,6 +11,28 @@ This page serves as an overview of selected projects I have contributed to.
 7. [AlertLife](#alertlife--spring-2019--github)
 8. [Smart Fire Sprinkler](#smart-fire-sprinkler--spring-2018)
 
+### About Me
+I am a graduate student at the University of Iowa studying business analytics. I have experience using multiple coding languages in both hardware and software projects.
+
+### Languages
+- First-Choice:
+    - MATLAB
+- Project Experience:
+    - Java
+    - C
+    - SQL
+- Class Experience:
+    - C++
+    - Python
+    - Assembly
+    - R
+    - VHDL
+    - Verilog
+- Minor Exposure:
+    - JavaScript
+    - HTML
+
+
 # Projects
 
 ## OpenStreetMap | Fall 2019 - Present | [Contributions](https://hdyc.neis-one.org/?karsonkevin2)
