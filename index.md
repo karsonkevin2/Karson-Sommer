@@ -2,15 +2,14 @@
 
 This page serves as an overview of selected projects I have contributed to.
 
-1. [test](##asdf)
-2. 
-
+1. [OpenStreetMap](#openstreetmap--fall-2019---present--overview)
+2. [Iowa Tracks](#iowa-tracks--winter-20202021--website--github)
+3. [Line Drawing to SVG](#line-drawing-to-svg--summer-2020--github)
+4. [NCAA Colors](#ncaa-colors--summer-2020--github)
+5. [Strogger](#strogger--spring-2020--github)
+6. [AlertLife](#alertlife--spring-2019--github)
 
 # Projects
-
-## thing 1 [github](github.com)
-
-text asdfasdf
 
 ## OpenStreetMap | Fall 2019 - Present | [Overview](https://hdyc.neis-one.org/?karsonkevin2)
 OpenStreetMap is a map which can be edited and contributed to by anyone. OpenStreetMap is one of the most popular map services since it is free to use and is used by companies such as Amazon, Facebook, Snapchat, Lyft, ...
@@ -51,5 +50,3 @@ We designed an Android application which provides real-time analytics on a runne
 This project was created for the course, Embedded Systems. The project was designed with a partner. 
 
 We envisioned an understaffed elderly home where people may have a medical emergency. In order for the staff to be appropriately informed, we designed a system which monitors for someone falling down and then sounds an audible alarm and sends a Bluetooth transmission to a central monitoring computer.
-
-## asdf
