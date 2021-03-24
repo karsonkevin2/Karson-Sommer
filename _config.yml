@@ -1,13 +1,9 @@
 title: Karson Sommer
 author: Karson Sommer
 email: karson-sommer@uiowa.edu
-#description:  # this means to ignore newlines until "baseurl:"
-navbar-links:
-  About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
-  Author's home: "https://deanattali.com"
+description: Overview of selected projects
+
+google_analytics:
  
 # social links
 github_username: karsonkevin2 # DO NOT include the @ character, or else the build will fail!
