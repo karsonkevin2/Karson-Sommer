@@ -57,7 +57,7 @@ This package for MATLAB allows skeletonization of intensity based raster heatmpa
 
 These functions provide a variety of parameters to skeletonize a heatmap. The data must first be obtained from a raster Slippy map, possibly using the included functions. Then, using a series of parameters, optimized by the user for the locale, the heatmap is reduced to a bitmap skeletonization. This skeletonization can then be processed using my Line Drawing to SVG library and imported into OpenStreetMap using the [JOSM](https://josm.openstreetmap.de/) [ImportVec](https://wiki.openstreetmap.org/wiki/JOSM/Plugins/ImportVec) plugin.
 
-## Line Drawing to SVG | Summer 2020 | [Github](https://github.com/line-drawing-to-svg)
+## Line Drawing to SVG | Summer 2020 | [Github](https://github.com/karsonkevin2/line-drawing-to-svg)
 This package for MATLAB allows lossless conversion of a bitmap line drawing to svg file format.. It is possibly the only implementation anywhere. When trying to create my heatmap skeletonization project, I realized I had no way of losslessly converting bitmap line drawings to svg. MATLAB's built in method was not lossless and every implementation I found on the Internet attempted the conversion using ML techniques. I needed a way to convert the information 1:1.
 
 The input data is assumed to be of boolean type in 2d space. The data may or may not be sparse. This process is attempts to reduce the data as much as possible by representing the information as the minimal set of straight lines.
