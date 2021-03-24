@@ -13,6 +13,11 @@ This project was undertaken out of curiosity to see how similar NCAA DI team col
 
 Data was obtained from through website which had already compiled this information. This information was then explored in Excel. A Visual Basic macro was created to ensure that the colors were visually represented rather than just a unsigned short. Even segmentation proved ineffective, so a clustering based strategy was adopted. The data was moved to MATLAB where meaningful 3D charts could be created of the derived color space.
 
+## Strogger - Spring 2020 - [Github](https://github.com/kmhall/Strogger)
+This project was created for the Electrical Engineering Senior Design course. I worked with [Kyle Hall](https://github.com/kmhall) and [Jordan Mitchell](github.com/jmitchell37). We worked loosely with a design group from both the Biomedical Engineering department and the law college, but our projects diverged during the Spring semester.
+
+We designed an Android application which provides real-time analytics on a runner's form. The phone is held in the runner's hand and will provide audio and vibrational feedback when bad form is detected. The application uses the phone sensors to quantify bad form using cadence, twisting, and exaggerated form. The app has a display which can be used to view various statistics and charts of the run. Authentication is required as the information could be personally identifying. Data is stored in the cloud using [Google Firebase](https://firebase.google.com/). Bluetooth connectivity was partially implemented with the goal of providing audio feeback direclty to headphones.
+
 ## Alertlife - Spring 2019 - [Github](https://github.com/karsonkevin2/AlertLife)
 This project was created for the course, Embedded Systems. The project was designed with a partner. 
 
