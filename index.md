@@ -2,7 +2,7 @@
 
 This page serves as an overview of selected projects I have contributed to.
 
-1. [OpenStreetMap](#openstreetmap--fall-2019---present--overview)
+1. [OpenStreetMap](#openstreetmap--fall-2019---present--contributions)
 2. [Iowa Tracks](#iowa-tracks--winter-20202021--website--github)
 3. [Heatmap Skeletonizataion](#heatmap-skeletonization--summer-2020--github)
 4. [Line Drawing to SVG](#line-drawing-to-svg--summer-2020--github)
