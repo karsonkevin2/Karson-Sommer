@@ -1,23 +1,12 @@
 title: Karson Sommer
 email: karson-sommer@uiowa.edu
 description:  # this means to ignore newlines until "baseurl:"
+  languages: asdf
   languages:
-  First-Choice:
-    - MATLAB
-  Project Experience:
-    - Java
-    - C
-    - SQL
-  Class Experience:
-    - C++
-    - Python
-    - Assembly
-    - R
-    - VHDL
-    - Verilog
-  Minor Exposure:
-    - JavaScript
-    - HTML
+    asdf:
+    asdf: asdf
+languages: asdf
+  
 # social links
 github_username: karsonkevin2 # DO NOT include the @ character, or else the build will fail!
 
