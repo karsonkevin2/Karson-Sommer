@@ -8,17 +8,29 @@ This page serves as an overview of selected projects I have contributed to.
 
 text asdfasdf
 
-## NCAA Colors - Summer 2020 - [Github](https://github.com/karsonkevin2/NCAA-Colors)
+## OpenStreetMap | Fall 2019 - Present | [Overview](https://hdyc.neis-one.org/?karsonkevin2) [OSMCha](https://osmcha.org/changesets/101660312?filters=%7B%22users%22%3A%5B%7B%22label%22%3A%22karsonkevin2%22%2C%22value%22%3A%22karsonkevin2%22%7D%5D%2C%22order_by%22%3A%5B%7B%22label%22%3A%22Descending%20Date%22%2C%22value%22%3A%22-date%22%7D%5D%7D) [Recent Changes](https://www.openstreetmap.org/user/karsonkevin2/history)
+OpenStreetMap is a map which can be edited and contributed to by anyone. OpenStreetMap is one of the most popular map services since it is free to use and is used by companies such as Amazon, Facebook, Snapchat, Lyft, ...
+
+I am an avid contributor and like to map things which benefit the end user. Some important contributions I have made include:
+- standardizing a tagging schema for running tracks and cross country courses
+- mapping every athletic facility in the state of Iowa
+- create named neighborhood polygons in the Quad Cities, Iowa City, Des Moines, ... in conjunction with county GIS departments
+- add missing road suffixes to every road in Wayne County, Iowa
+- convert many parks or wildlife management areas from nodes into areas in Iowa
+- add road names and correct road classes to clean up low quality edits from Amazon's mapping team
+- ... various other changes  
+
+## NCAA Colors | Summer 2020 | [Github](https://github.com/karsonkevin2/NCAA-Colors)
 This project was undertaken out of curiosity to see how similar NCAA DI team colors are. The B1G Conference team colors caused this project since Nebraska, UW-Madison, IU all have similar team colors.
 
 Data was obtained from through website which had already compiled this information. This information was then explored in Excel. A Visual Basic macro was created to ensure that the colors were visually represented rather than just a unsigned short. Even segmentation proved ineffective, so a clustering based strategy was adopted. The data was moved to MATLAB where meaningful 3D charts could be created of the derived color space.
 
-## Strogger - Spring 2020 - [Github](https://github.com/kmhall/Strogger)
+## Strogger | Spring 2020 | [Github](https://github.com/kmhall/Strogger)
 This project was created for the Electrical Engineering Senior Design course. I worked with [Kyle Hall](https://github.com/kmhall) and [Jordan Mitchell](github.com/jmitchell37). We worked loosely with a design group from both the Biomedical Engineering department and the law college, but our projects diverged during the Spring semester.
 
 We designed an Android application which provides real-time analytics on a runner's form. The phone is held in the runner's hand and will provide audio and vibrational feedback when bad form is detected. The application uses the phone sensors to quantify bad form using cadence, twisting, and exaggerated form. The app has a display which can be used to view various statistics and charts of the run. Authentication is required as the information could be personally identifying. Data is stored in the cloud using [Google Firebase](https://firebase.google.com/). Bluetooth connectivity was partially implemented with the goal of providing audio feeback direclty to headphones.
 
-## Alertlife - Spring 2019 - [Github](https://github.com/karsonkevin2/AlertLife)
+## Alertlife | Spring 2019 | [Github](https://github.com/karsonkevin2/AlertLife)
 This project was created for the course, Embedded Systems. The project was designed with a partner. 
 
 We envisioned an understaffed elderly home where people may have a medical emergency. In order for the staff to be appropriately informed, we designed a system which monitors for someone falling down and then sounds an audible alarm and sends a Bluetooth transmission to a central monitoring computer.
