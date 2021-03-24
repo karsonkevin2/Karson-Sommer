@@ -4,10 +4,12 @@ This page serves as an overview of selected projects I have contributed to.
 
 1. [OpenStreetMap](#openstreetmap--fall-2019---present--overview)
 2. [Iowa Tracks](#iowa-tracks--winter-20202021--website--github)
-3. [Line Drawing to SVG](#line-drawing-to-svg--summer-2020--github)
-4. [NCAA Colors](#ncaa-colors--summer-2020--github)
-5. [Strogger](#strogger--spring-2020--github)
-6. [AlertLife](#alertlife--spring-2019--github)
+3. [Heatmap Skeletonizataion](#heatmap-skeletonization--summer-2020--github)
+4. [Line Drawing to SVG](#line-drawing-to-svg--summer-2020--github)
+5. [NCAA Colors](#ncaa-colors--summer-2020--github)
+6. [Strogger](#strogger--spring-2020--github)
+7. [AlertLife](#alertlife--spring-2019--github)
+8. [Smart Fire Sprinkler](#smart-fire-sprinkler--spring-2018)
 
 # Projects
 
@@ -28,7 +30,10 @@ This project was spurred by [Russ Biggs Swimming Pools](https://github.com/russb
 
 I had previously mapped every running track in Iowa. I utilized [Overpass Turbo](https://overpass-turbo.eu/) to get an extract of the information and [Mapshaper](https://mapshaper.org/) to reformat the information to TopoJSON. The actual code needed to be modified so that each polygon would render its own color. The code also needed to be modified to correctly display multipolygons.
 
-## 
+## Heatmap Skeletonization | Summer 2020 | [Github](https://github.com/karsonkevin2/heatmap-skeletonization)
+Traversal heatmaps are provided by many sources and can be converted to roads for OpenStreetmap more efficiently than using machine learning models on satellite imagery. An example heatmap can be found from the [Strava Heatmap](https://www.strava.com/heatmap). 
+
+These functions provide a variety of parameters to skeletonize a heatmap. The data must first be obtained from a raster Slippy map, possibly using the created functions. Then using a serious of parameters, optimized by the user for the locale, the heatmap is reduced to a bitmap skeletonization. This skeletonization can then be processed using my Line Drawing to SVG library and imported into OpenStreetMap using the JOSM importVec plugin.
 
 ## Line Drawing to SVG | Summer 2020 | [Github](https://github.com/line-drawing-to-svg)
 When trying to create my heatmap skeletonization project, I realized I had no way of losslessly converting bitmap line drawings to svg. MATLAB's built in method was not lossless and every implementation I found on the Internet attempted the conversion using ML techniques. I needed a way to convert the information 1:1.
@@ -50,3 +55,8 @@ We designed an Android application which provides real-time analytics on a runne
 This project was created for the course, Embedded Systems. The project was designed with a partner. 
 
 We envisioned an understaffed elderly home where people may have a medical emergency. In order for the staff to be appropriately informed, we designed a system which monitors for someone falling down and then sounds an audible alarm and sends a Bluetooth transmission to a central monitoring computer.
+
+## Smart Fire Sprinkler | Spring 2018
+Implements a overhead fire sprinkler system which can aim itself to only extinguish the fire and not cause collateral damage to the building. Most fire sprinkler systems, once activated, must be manually turned off by the fire department which can cause great monetary loss, especially in server rooms. This project was designed as a team of 4 for the classs, Internet of Things.
+
+The system is controlled locally via an Raspberry Pi which is interfaced with 3 stepper motors, an infrared sensor, and a pump. This allows the system to aim the water, detect where the fire is, and switch the stream on and off. Information about the status of the system is transmitted via a WiFi connection to Google Firebase which can then be accessed via an Android application we designed. The app allows viewing the statuses of multiple sprinkler systems as well as viewing the temperature array and whether the pump has been toggled.
