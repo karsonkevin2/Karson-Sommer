@@ -39,7 +39,7 @@ I am a graduate student at the University of Iowa studying business analytics. I
 [OpenStreetMap](openstreetmap.org) is a map which can be edited and contributed to by anyone. OpenStreetMap is one of the most popular map services since it is free to use and is used by companies such as Amazon, Facebook, Snapchat, Lyft, ...
 
 I am an avid contributor and like to map things which benefit the end user. Some important contributions I have made include:
-- Standardizing a tagging schema for running tracks and cross country courses
+- Standardizing a tagging scheme for running tracks and cross country courses
 - Mapping every athletic facility in the state of Iowa
 - Creating named neighborhood polygons in the Quad Cities, Iowa City, Des Moines, ... in conjunction with county GIS departments
 - Adding missing road suffixes to every road in Wayne County, Iowa
