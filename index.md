@@ -1,3 +1,9 @@
-# Welcome to my blog
+# Overview
 
-The index markdown file can be used as content on a Github Page.
+This page serves as an overview of selected projects I have contributed to.
+
+# Projects
+
+## thing 1 [github](github.com)
+
+text asdfasdf
