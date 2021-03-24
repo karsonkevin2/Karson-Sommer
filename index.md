@@ -25,6 +25,14 @@ This project was spurred by [Russ Biggs Swimming Pools](https://github.com/russb
 
 I had previously mapped every running track in Iowa. I utilized [Overpass Turbo](https://overpass-turbo.eu/) to get an extract of the information and [Mapshaper](https://mapshaper.org/) to reformat the information to TopoJSON. The actual code needed to be modified so that each polygon would render its own color. The code also needed to be modified to correctly display multipolygons.
 
+## 
+
+## Line Drawing to SVG | Summer 2020 | [Github](https://github.com/line-drawing-to-svg)
+When trying to create my heatmap skeletonization project, I realized I had no way of losslessly converting bitmap line drawings to svg. MATLAB's built in method was not lossless and every implementation I found on the Internet attempted the conversion using ML techniques. I needed a way to convert the information 1:1.
+
+This package for MATLAB allows lossless conversion of a bitmap line drawing to svg file format. This process is attempts to reduce the data as much as possible by representing the information as a set of straight lines. As far as I can tell, this is the only existing implementation in any language.
+
+
 ## NCAA Colors | Summer 2020 | [Github](https://github.com/karsonkevin2/NCAA-Colors)
 This project was undertaken out of curiosity to see how similar NCAA DI team colors are. The B1G Conference team colors caused this project since Nebraska, UW-Madison, IU all have similar team colors.
 
@@ -39,5 +47,3 @@ We designed an Android application which provides real-time analytics on a runne
 This project was created for the course, Embedded Systems. The project was designed with a partner. 
 
 We envisioned an understaffed elderly home where people may have a medical emergency. In order for the staff to be appropriately informed, we designed a system which monitors for someone falling down and then sounds an audible alarm and sends a Bluetooth transmission to a central monitoring computer.
-
-##
