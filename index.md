@@ -13,8 +13,8 @@ This page serves as an overview of selected projects to which I have contributed
 
 ### About Me
 I am a graduate student at the University of Iowa studying business analytics. I have experience using multiple coding languages in both hardware and software projects.
-[LinkedIn](https://www.linkedin.com/in/karson-sommer-75a922177/)
-[Resume](Resume%20-%20Sommer.pdf)
+[LinkedIn](https://www.linkedin.com/in/karson-sommer-75a922177/)  
+[Resume](Resume%20-%20Sommer.pdf)  
 
 ### Languages
 - First-Choice:
