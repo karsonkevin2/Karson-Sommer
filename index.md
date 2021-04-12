@@ -79,7 +79,7 @@ This wearable device acts as a monitor for detecting people falling down in a st
 
 The system uses an accelerometer to detect someone falling down and then sounds an alarm on the device using a buzzer. The device also sends a Bluetooth transmission which labels the signaling device. The device must be reset by hand to ensure the patient is checked on.
 
-## Smart Fire Sprinkler | Spring 2018
+## Smart Fire Sprinkler | Spring 2019
 Implements a remotely-monitored overhead fire sprinkler system which can aim itself to only extinguish the fire and not cause collateral damage to the building. Most fire sprinkler systems, once activated, must be manually turned off by the fire department which can cause great monetary loss, especially in server rooms. This project was designed as a team of 4 for the class, Internet of Things.
 
 The system is controlled locally via a Raspberry Pi which is interfaced with 3 stepper motors, an infrared sensor, and a pump. This allows the system to aim the water, detect where the fire is, and switch the stream on and off. Information about the status of the system is transmitted via a Wi-Fi connection to [Google Firebase](https://firebase.google.com/) which can then be accessed via an Android application we designed. The app allows viewing the statuses of multiple sprinkler systems as well as viewing the temperature array and whether the pump has been toggled.
